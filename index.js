@@ -974,7 +974,7 @@ osmtogeojson = function( data, options, featureCallback ) {
         f.properties = _.merge(
           f.properties.meta,
           f.properties.tags,
-          {id: f.properties.type+"/"+f.properties.id}
+          // {id: f.properties.type+"/"+f.properties.id}
         );
       });
     }
